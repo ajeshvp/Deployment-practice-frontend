@@ -26,7 +26,7 @@ const Registration = () => {
     e.preventDefault();
 
     axios
-      .post("https://deploymentbackend-u0xo.onrender.com/register", data)
+      .post("https://backend-deployment-practice-u1et.onrender.com", data)
       .then((res) => {
         alert(res.data);
       });
